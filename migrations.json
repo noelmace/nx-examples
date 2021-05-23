@@ -1,0 +1,11 @@
+{
+  "migrations": [
+    {
+      "version": "9.5.0-beta.1",
+      "description": "Update libraries",
+      "factory": "./src/migrations/update-9-5-0/update-9-5-0",
+      "package": "@nrwl/react",
+      "name": "update-9.5.0"
+    }
+  ]
+}
