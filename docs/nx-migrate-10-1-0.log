@@ -1,0 +1,6 @@
+Running migration @nrwl/workspace:migrate-eslintrc-tsconfig-wildcard
+Successfully finished @nrwl/workspace:migrate-eslintrc-tsconfig-wildcard
+---------------------------------------------------------
+Running migration @nrwl/jest:update-10.1.0
+Successfully finished @nrwl/jest:update-10.1.0
+---------------------------------------------------------
