@@ -1,0 +1,52 @@
+yarn run v1.22.10
+$ /home/noel/git/missions/nx-examples/node_modules/.bin/tao migrate --run-migrations=migrations.json
+Running migration update-decorate-angular-cli
+Successfully finished update-decorate-angular-cli
+---------------------------------------------------------
+Running migration update-node-types
+Successfully finished update-node-types
+---------------------------------------------------------
+Running migration rename-workspace-schematics
+Successfully finished rename-workspace-schematics
+---------------------------------------------------------
+Running migration add-outputs-in-workspace
+Successfully finished add-outputs-in-workspace
+---------------------------------------------------------
+Running migration update-command-check
+Successfully finished update-command-check
+---------------------------------------------------------
+Running migration rename-workspace-schematic-script
+Successfully finished rename-workspace-schematic-script
+---------------------------------------------------------
+Running migration add-template-support-and-presets-to-eslint
+Successfully finished add-template-support-and-presets-to-eslint
+---------------------------------------------------------
+Running migration update-11-0-0
+Successfully finished update-11-0-0
+---------------------------------------------------------
+Running migration replace-ng-packagr-builder
+Invalid migration file in package: "@angular/cli"
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+/home/noel/git/missions/nx-examples/node_modules/yargs/build/lib/yargs.js:1132
+                throw err;
+                ^
+
+Error: Command failed: yarn tao migrate --run-migrations=migrations.json
+    at checkExecSyncError (child_process.js:635:11)
+    at Object.execSync (child_process.js:671:15)
+    at Object.handler (/home/noel/git/missions/nx-examples/node_modules/@nrwl/workspace/src/command-line/nx-commands.js:76:21)
+    at Object.runCommand (/home/noel/git/missions/nx-examples/node_modules/yargs/build/lib/command.js:196:48)
+    at Object.parseArgs [as _parseArgs] (/home/noel/git/missions/nx-examples/node_modules/yargs/build/lib/yargs.js:1043:55)
+    at Object.get [as argv] (/home/noel/git/missions/nx-examples/node_modules/yargs/build/lib/yargs.js:986:25)
+    at Object.initLocal (/home/noel/git/missions/nx-examples/node_modules/@nrwl/cli/lib/init-local.js:23:13)
+    at Object.<anonymous> (/home/noel/git/missions/nx-examples/node_modules/@nrwl/cli/bin/nx.js:41:18)
+    at Module._compile (/home/noel/.config/yarn/global/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 281603,
+  stdout: null,
+  stderr: null
+}
