@@ -1,0 +1,64 @@
+Running migration @nrwl/workspace:add-default-branch-to-nx-json
+Successfully finished @nrwl/workspace:add-default-branch-to-nx-json
+---------------------------------------------------------
+Running migration @nrwl/workspace:solution-tsconfigs
+    Referencing apps/cart/tsconfig.app.json in apps/cart/tsconfig.json
+    Referencing apps/cart/tsconfig.spec.json in apps/cart/tsconfig.json
+    Referencing apps/cart-e2e/tsconfig.e2e.json in apps/cart-e2e/tsconfig.json
+    Referencing apps/products/tsconfig.app.json in apps/products/tsconfig.json
+    Referencing apps/products/tsconfig.spec.json in apps/products/tsconfig.json
+    Referencing apps/products-e2e/tsconfig.e2e.json in apps/products-e2e/tsconfig.json
+    Referencing libs/cart/cart-page/tsconfig.lib.json in libs/cart/cart-page/tsconfig.json
+    Referencing libs/cart/cart-page/tsconfig.spec.json in libs/cart/cart-page/tsconfig.json
+    Referencing libs/products/home-page/tsconfig.lib.json in libs/products/home-page/tsconfig.json
+    Referencing libs/products/home-page/tsconfig.spec.json in libs/products/home-page/tsconfig.json
+    Referencing libs/products/product-detail-page/tsconfig.lib.json in libs/products/product-detail-page/tsconfig.json
+    Referencing libs/products/product-detail-page/tsconfig.spec.json in libs/products/product-detail-page/tsconfig.json
+    Referencing libs/shared/cart/state/tsconfig.lib.json in libs/shared/cart/state/tsconfig.json
+    Referencing libs/shared/cart/state/tsconfig.spec.json in libs/shared/cart/state/tsconfig.json
+    Referencing libs/shared/e2e-utils/tsconfig.lib.json in libs/shared/e2e-utils/tsconfig.json
+    Referencing libs/shared/header/tsconfig.lib.json in libs/shared/header/tsconfig.json
+    Referencing libs/shared/header/tsconfig.spec.json in libs/shared/header/tsconfig.json
+    Referencing libs/shared/jsxify/tsconfig.lib.json in libs/shared/jsxify/tsconfig.json
+    Referencing libs/shared/product/data/tsconfig.lib.json in libs/shared/product/data/tsconfig.json
+    Referencing libs/shared/product/state/tsconfig.lib.json in libs/shared/product/state/tsconfig.json
+    Referencing libs/shared/product/state/tsconfig.spec.json in libs/shared/product/state/tsconfig.json
+    Referencing libs/shared/product/types/tsconfig.lib.json in libs/shared/product/types/tsconfig.json
+    Referencing libs/shared/product/ui/tsconfig.lib.json in libs/shared/product/ui/tsconfig.json
+    Referencing libs/shared/product/ui/tsconfig.spec.json in libs/shared/product/ui/tsconfig.json
+    Referencing libs/shared/styles/tsconfig.lib.json in libs/shared/styles/tsconfig.json
+Successfully finished @nrwl/workspace:solution-tsconfigs
+---------------------------------------------------------
+Running migration @nrwl/workspace:migrate-eslintrc-tsconfig
+Successfully finished @nrwl/workspace:migrate-eslintrc-tsconfig
+---------------------------------------------------------
+Running migration @angular/core:migration-v10-missing-injectable
+Successfully finished @angular/core:migration-v10-missing-injectable
+---------------------------------------------------------
+Running migration @angular/core:migration-v10-module-with-providers
+Successfully finished @angular/core:migration-v10-module-with-providers
+---------------------------------------------------------
+Running migration @angular/core:migration-v10-undecorated-classes-with-decorated-fields
+Successfully finished @angular/core:migration-v10-undecorated-classes-with-decorated-fields
+---------------------------------------------------------
+Running migration @nrwl/angular:update-10-0-0
+    Updating @angular/cli to 10.0.0
+Installing packages for tooling via yarn.
+Installed packages for tooling via yarn.
+Using package manager: 'yarn'
+Collecting installed dependencies...
+Found 59 dependencies.
+Fetching dependency metadata from registry...
+  UPDATE package.json (2999 bytes)
+    Updating @angular/core to 10.0.0
+Installing packages for tooling via yarn.
+Installed packages for tooling via yarn.
+Using package manager: 'yarn'
+Collecting installed dependencies...
+Found 59 dependencies.
+Fetching dependency metadata from registry...
+Successfully finished @nrwl/angular:update-10-0-0
+---------------------------------------------------------
+Running migration @nrwl/jest:update-10.0.0
+Successfully finished @nrwl/jest:update-10.0.0
+---------------------------------------------------------
