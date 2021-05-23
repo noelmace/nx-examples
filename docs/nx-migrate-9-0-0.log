@@ -1,0 +1,103 @@
+Running migration @nrwl/workspace:update-9-0-0
+Successfully finished @nrwl/workspace:update-9-0-0
+---------------------------------------------------------
+Running migration @nrwl/angular:update-9-0-0
+    A "postinstall" script has been added to package.json to run ngcc.
+    Updating @angular/cli to 9.0.1
+The installed local Angular CLI version is older than the latest stable version.
+Installing a temporary version to perform the update.
+Installing packages for tooling via yarn.
+Installed packages for tooling via yarn.
+Repository is not clean. Update changes will be mixed with pre-existing changes.
+Using package manager: 'yarn'
+Collecting installed dependencies...
+Found 58 dependencies.
+Fetching dependency metadata from registry...
+                  Package "@angular/compiler-cli" has a missing peer dependency of "tslib" @ "^1.10.0".
+                  Package "@angular/animations" has a missing peer dependency of "tslib" @ "^1.10.0".
+                  Package "@angular/common" has a missing peer dependency of "tslib" @ "^1.10.0".
+                  Package "@angular/compiler" has a missing peer dependency of "tslib" @ "^1.10.0".
+                  Package "@angular/core" has a missing peer dependency of "tslib" @ "^1.10.0".
+                  Package "@angular/forms" has a missing peer dependency of "tslib" @ "^1.10.0".
+                  Package "@angular/platform-browser" has a missing peer dependency of "tslib" @ "^1.10.0".
+                  Package "@angular/platform-browser-dynamic" has a missing peer dependency of "tslib" @ "^1.10.0".
+                  Package "@angular/router" has a missing peer dependency of "tslib" @ "^1.10.0".
+    Updating package.json with dependency @angular/compiler-cli @ "9.1.13" (was "8.2.14")...
+    Updating package.json with dependency @angular/language-service @ "9.1.13" (was "8.2.14")...
+    Updating package.json with dependency @angular/animations @ "9.1.13" (was "8.2.14")...
+    Updating package.json with dependency @angular/common @ "9.1.13" (was "8.2.14")...
+    Updating package.json with dependency @angular/compiler @ "9.1.13" (was "8.2.14")...
+    Updating package.json with dependency @angular/core @ "9.1.13" (was "8.2.14")...
+    Updating package.json with dependency @angular/forms @ "9.1.13" (was "8.2.14")...
+    Updating package.json with dependency @angular/platform-browser @ "9.1.13" (was "8.2.14")...
+    Updating package.json with dependency @angular/platform-browser-dynamic @ "9.1.13" (was "8.2.14")...
+    Updating package.json with dependency @angular/router @ "9.1.13" (was "8.2.14")...
+    Updating package.json with dependency zone.js @ "0.10.3" (was "0.9.1")...
+  UPDATE package.json (2905 bytes)
+✔ Packages successfully installed.
+** Executing migrations of package '@angular/core' **
+
+▸ Static flag migration.
+  Removes the `static` flag from dynamic queries.
+  As of Angular 9, the "static" flag defaults to false and is no longer required for your view and content queries.
+  Read more about this here: https://v9.angular.io/guide/migration-dynamic-flag
+  Migration completed.
+
+▸ Missing @Injectable and incomplete provider definition migration.
+  In Angular 9, enforcement of @Injectable decorators for DI is a bit stricter and incomplete provider definitions behave differently.
+  Read more about this here: https://v9.angular.io/guide/migration-injectable
+  Migration completed.
+
+▸ ModuleWithProviders migration.
+  In Angular 9, the ModuleWithProviders type without a generic has been deprecated.
+  This migration adds the generic where it is missing.
+  Read more about this here: https://v9.angular.io/guide/migration-module-with-providers
+  Migration completed.
+
+▸ Renderer to Renderer2 migration.
+  As of Angular 9, the Renderer class is no longer available.
+  Renderer2 should be used instead.
+  Read more about this here: https://v9.angular.io/guide/migration-renderer
+  Migration completed.
+
+▸ Undecorated classes with decorated fields migration.
+  As of Angular 9, it is no longer supported to have Angular field decorators on a class that does not have an Angular decorator.
+  Read more about this here: https://v9.angular.io/guide/migration-undecorated-classes
+  Migration completed.
+
+▸ Undecorated classes with DI migration.
+  As of Angular 9, it is no longer supported to use Angular DI on a class that does not have an Angular decorator.
+  Read more about this here: https://v9.angular.io/guide/migration-undecorated-classes
+  Migration completed.
+
+
+Your project has been updated to Angular version 9!
+For more info, please see: https://v9.angular.io/guide/updating-to-version-9
+    Updating @angular/core to 9.0.0
+The installed local Angular CLI version is older than the latest stable version.
+Installing a temporary version to perform the update.
+Installing packages for tooling via yarn.
+Installed packages for tooling via yarn.
+Repository is not clean. Update changes will be mixed with pre-existing changes.
+Using package manager: 'yarn'
+Collecting installed dependencies...
+Found 58 dependencies.
+Fetching dependency metadata from registry...
+⠋ Installing packages...https://github.com/angular/angular-cli/tree/master/packages/schematics/angular/migrations/upd✔ Packages successfully installed.
+Successfully finished @nrwl/angular:update-9-0-0
+---------------------------------------------------------
+Running migration @nrwl/jest:update-9.0.0
+    \`jest-preset-angular\` 8.0.0 has restructured folders, introducing breaking changes to
+    jest.config.js files.
+
+    We are updating snapshotSerializers in each Angular project to include appropriate paths.
+
+    See: https://github.com/thymikee/jest-preset-angular/releases/tag/v8.0.0
+Successfully finished @nrwl/jest:update-9.0.0
+---------------------------------------------------------
+Running migration @nrwl/jest:update-9.0.1
+Successfully finished @nrwl/jest:update-9.0.1
+---------------------------------------------------------
+Running migration @nrwl/web:update-builder-9.0.0
+Successfully finished @nrwl/web:update-builder-9.0.0
+---------------------------------------------------------
