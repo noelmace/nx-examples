@@ -7,6 +7,11 @@ CURRENT_NX_VERSION=$(awk -F \" '/"@nrwl\/workspace": ".+"/ { print $4; exit; }' 
 
 echo "Current Nx Version: $CURRENT_NX_VERSION"
 
+show-git() {
+  git log --oneline --decorate -n 1
+  git status -s
+}
+
 notify-and-stop() {
   message=${1:?"A message must be specified."}
 
@@ -32,6 +37,7 @@ migrate() {
 
   yarn
 
+  show-git
   notify-and-stop "Commit update"
 
   git add --all
@@ -42,6 +48,7 @@ migrate() {
     echo
     (set -x; nx migrate --run-migrations=migrations.json 2>&1 | tee docs/nx-migrate-${NX_MINOR_VERSION//\./-}-0.log)
 
+    show-git
     notify-and-stop "Commit current migrations"
 
     rm -f migrations.json
