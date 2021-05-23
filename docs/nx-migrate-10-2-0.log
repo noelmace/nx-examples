@@ -1,0 +1,16 @@
+yarn run v1.22.10
+$ /home/noel/git/missions/nx-examples/node_modules/.bin/tao migrate --run-migrations=migrations.json
+Running migration @nrwl/angular:update-10-2-0
+    Updating @ngrx/store to 10.0.0
+Installing packages for tooling via yarn.
+Installed packages for tooling via yarn.
+Using package manager: 'yarn'
+Collecting installed dependencies...
+Found 59 dependencies.
+Package '@ngrx/store' is already at '10.0.0'.
+Successfully finished @nrwl/angular:update-10-2-0
+---------------------------------------------------------
+Running migration @nrwl/jest:update-10.2.0
+Successfully finished @nrwl/jest:update-10.2.0
+---------------------------------------------------------
+Done in 13.74s.
