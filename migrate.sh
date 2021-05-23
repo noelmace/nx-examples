@@ -10,7 +10,7 @@ echo "Current Nx Version: $CURRENT_NX_VERSION"
 show-git() {
   echo
   echo "--- git ---"
-  git log --oneline --decorate -n 1
+  echo $(git log --oneline --decorate -n 1)
   git status -s
   echo "----------"
   echo
