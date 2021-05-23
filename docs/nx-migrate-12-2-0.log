@@ -1,0 +1,20 @@
+
+>  NX  Running 'yarn' to make sure necessary packages are installed
+
+yarn install v1.22.10
+[1/4] Resolving packages...
+success Already up-to-date.
+$ ngcc --properties es2015 browser module main && node ./decorate-angular-cli.js
+
+>  NX  Angular CLI has been decorated to enable computation caching.
+
+Done in 3.21s.
+
+>  NX  Running migrations from 'migrations.json'
+
+Running migration update-ts-jest-6-5-5
+Successfully finished update-ts-jest-6-5-5
+---------------------------------------------------------
+
+>  NX  Successfully finished running migrations from 'migrations.json'
+
