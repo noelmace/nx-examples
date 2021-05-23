@@ -1,0 +1,58 @@
+
+>  NX  Running 'yarn' to make sure necessary packages are installed
+
+yarn install v1.22.10
+[1/4] Resolving packages...
+success Already up-to-date.
+$ ngcc --properties es2015 browser module main && node ./decorate-angular-cli.js
+
+>  NX  Angular CLI has been decorated to enable computation caching.
+
+Done in 5.38s.
+
+>  NX  Running migrations from 'migrations.json'
+
+Running migration update-webpack-browser-config
+Successfully finished update-webpack-browser-config
+---------------------------------------------------------
+Running migration update-storybook
+Successfully finished update-storybook
+---------------------------------------------------------
+Running migration update-angular-eslint-rules
+Successfully finished update-angular-eslint-rules
+---------------------------------------------------------
+Running migration update-angular-config-v12
+Successfully finished update-angular-config-v12
+---------------------------------------------------------
+Running migration update-zonejs
+An installation of node_modules has been required. Make sure to run it after the migration
+Successfully finished update-zonejs
+---------------------------------------------------------
+Running migration remove-emit-decorator-metadata
+    Skipping migration as the workspace uses third-party builders which may require "emitDecoratorMetadata" TypeScript compiler option.
+Successfully finished remove-emit-decorator-metadata
+---------------------------------------------------------
+Running migration lazy-loading-string-syntax
+Successfully finished lazy-loading-string-syntax
+---------------------------------------------------------
+Running migration remove-deprecated-i18n-options
+Successfully finished remove-deprecated-i18n-options
+---------------------------------------------------------
+Running migration update-web-workers-webpack-5
+Successfully finished update-web-workers-webpack-5
+---------------------------------------------------------
+Running migration schematic-options-12
+Successfully finished schematic-options-12
+---------------------------------------------------------
+Running migration migration-v12-activated-route-snapshot-fragment
+Successfully finished migration-v12-activated-route-snapshot-fragment
+---------------------------------------------------------
+Running migration migration-v12-xhr-factory
+Successfully finished migration-v12-xhr-factory
+---------------------------------------------------------
+Running migration update-12-3-0
+Successfully finished update-12-3-0
+---------------------------------------------------------
+
+>  NX  Successfully finished running migrations from 'migrations.json'
+
