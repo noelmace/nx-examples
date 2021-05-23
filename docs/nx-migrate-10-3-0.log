@@ -1,0 +1,46 @@
+yarn run v1.22.10
+$ /home/noel/git/missions/nx-examples/node_modules/.bin/tao migrate --run-migrations=migrations.json
+Running migration @nrwl/workspace:add-cli-dependency
+Successfully finished @nrwl/workspace:add-cli-dependency
+---------------------------------------------------------
+Running migration @nrwl/workspace:update-10-3-0
+Successfully finished @nrwl/workspace:update-10-3-0
+---------------------------------------------------------
+Running migration @nrwl/workspace:add-vscode-extensions
+Successfully finished @nrwl/workspace:add-vscode-extensions
+---------------------------------------------------------
+Running migration @nrwl/workspace:add-buildable-project-deps-in-package-json-type
+Successfully finished @nrwl/workspace:add-buildable-project-deps-in-package-json-type
+---------------------------------------------------------
+Running migration @nrwl/angular:update-10-3-0
+Successfully finished @nrwl/angular:update-10-3-0
+---------------------------------------------------------
+Running migration @nrwl/jest:update-projects-property
+    
+    The root jest.config.js file will be updated to include all references to each individual project's jest config. 
+    A new jest.preset.js file will be created that would have your existing configuration. All projects will now have this preset.
+            
+Successfully finished @nrwl/jest:update-projects-property
+---------------------------------------------------------
+Running migration @nrwl/jest:update-ts-jest
+Successfully finished @nrwl/jest:update-ts-jest
+---------------------------------------------------------
+Running migration @nrwl/jest:add-jest-extension
+Successfully finished @nrwl/jest:add-jest-extension
+---------------------------------------------------------
+Running migration @nrwl/linter:update-10.3.0
+Successfully finished @nrwl/linter:update-10.3.0
+---------------------------------------------------------
+Running migration @nrwl/linter:update-eslint-builder-and-config
+Successfully finished @nrwl/linter:update-eslint-builder-and-config
+---------------------------------------------------------
+Running migration @nrwl/linter:add-json-ext-to-eslintrc
+Successfully finished @nrwl/linter:add-json-ext-to-eslintrc
+---------------------------------------------------------
+Running migration @nrwl/linter:add-root-eslintrc-json-to-workspace-implicit-deps
+Successfully finished @nrwl/linter:add-root-eslintrc-json-to-workspace-implicit-deps
+---------------------------------------------------------
+Running migration @nrwl/linter:revert-node-modules-files-in-eslint-builder-options
+Successfully finished @nrwl/linter:revert-node-modules-files-in-eslint-builder-options
+---------------------------------------------------------
+Done in 3.81s.
