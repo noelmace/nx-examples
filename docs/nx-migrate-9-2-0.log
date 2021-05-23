@@ -1,0 +1,9 @@
+Running migration @nrwl/workspace:update-9-2-0
+Successfully finished @nrwl/workspace:update-9-2-0
+---------------------------------------------------------
+Running migration @nrwl/jest:update-9.2.0
+Successfully finished @nrwl/jest:update-9.2.0
+---------------------------------------------------------
+Running migration @nrwl/web:set-build-libs-from-source
+Successfully finished @nrwl/web:set-build-libs-from-source
+---------------------------------------------------------
