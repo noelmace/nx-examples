@@ -1,0 +1,18 @@
+Running migration @nrwl/workspace:update-eslint-config
+Successfully finished @nrwl/workspace:update-eslint-config
+---------------------------------------------------------
+Running migration @nrwl/workspace:update-linters-exclude
+Successfully finished @nrwl/workspace:update-linters-exclude
+---------------------------------------------------------
+Running migration @nrwl/workspace:add-decorate-cli
+Successfully finished @nrwl/workspace:add-decorate-cli
+---------------------------------------------------------
+Running migration @nrwl/cypress:add-cypress-eslint-plugin-9.4.0
+Successfully finished @nrwl/cypress:add-cypress-eslint-plugin-9.4.0
+---------------------------------------------------------
+Running migration @nrwl/react:update-9.4.0
+Successfully finished @nrwl/react:update-9.4.0
+---------------------------------------------------------
+Running migration @nrwl/react:babelrc-9.4.0
+Successfully finished @nrwl/react:babelrc-9.4.0
+---------------------------------------------------------
