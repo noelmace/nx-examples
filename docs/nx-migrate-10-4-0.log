@@ -1,0 +1,38 @@
+
+>  NX  Running 'yarn' to make sure necessary packages are installed
+
+yarn install v1.22.10
+[1/4] Resolving packages...
+success Already up-to-date.
+$ ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points && node ./decorate-angular-cli.js
+
+>  NX  Angular CLI has been decorated to enable computation caching.
+
+Done in 3.20s.
+
+>  NX  Running migrations from 'migrations.json'
+
+Running migration add-explicit-dep-on-tao
+Successfully finished add-explicit-dep-on-tao
+---------------------------------------------------------
+Running migration update-script-to-invoke-nx-migrate
+Successfully finished update-script-to-invoke-nx-migrate
+---------------------------------------------------------
+Running migration update-decorate-angular-cli
+Successfully finished update-decorate-angular-cli
+---------------------------------------------------------
+Running migration update-10-4-0
+Successfully finished update-10-4-0
+---------------------------------------------------------
+Running migration update-eslint-configs-to-use-nx-presets
+Successfully finished update-eslint-configs-to-use-nx-presets
+---------------------------------------------------------
+Running migration update-root-eslint-config-to-use-overrides
+Successfully finished update-root-eslint-config-to-use-overrides
+---------------------------------------------------------
+Running migration update-10.4.0
+Successfully finished update-10.4.0
+---------------------------------------------------------
+
+>  NX  Successfully finished running migrations from 'migrations.json'
+
